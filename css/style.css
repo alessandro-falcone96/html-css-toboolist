@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+header{
+  background-color: white;
+  padding: 5px;
+}
+.logo-img{
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.logo-testo{
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+main{
+  width: 80vw;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+.bottoni{
+  padding: 10px;
+}
+.bottone{
+  border-radius: 15%;
+  padding: 5px;
+}
+.bottone-azzurro{
+  background-color: #00bfff;
+  border: 1px solid #00bfff;
+  color: white;
+}
+.bottone-grigio{
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  color: #d9d9d9;
+}
+
+.bottoni, .new-task, .today, .upcoming{
+  margin-left: 30px;
+}
+
+.new-task, .today, .upcoming{
+  margin-top: 20px;
+}
+h3{
+  margin-bottom: 10px;
+}
+
+.spunta{
+  background-color: white;
+  border: 1px;
+  border-radius: 100%;
+  padding: 3px;
+}
+
+.check{
+  color: green;
+  border: 1px solid green;
+}
+
+.cross{
+  color: red;
+  border: 1px solid red;
+}
+
+.tipo{
+  color: white;
+  border: 1px;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.editorial{
+  background-color: #00bfff;
+}
+.goals{
+  background-color: #9900cc;
+}
+.recruiting{
+  background-color: #00cc99;
+}
+.mobile{
+  background-color: #ff6600;
+}
+.website{
+  background-color: #e600ac;
+}
+.sales{
+  background-color: #8cff1a;
+}
